@@ -1,0 +1,64 @@
+{
+    "source": "YouTube Data API v3",
+    "graph_type": "Directed reply interaction graph",
+    "nodes": 4352,
+    "active_authors": 1013,
+    "isolated_authors": 3339,
+    "directed_edges": 917,
+    "valid_reply_relationships": 994,
+    "skipped_reply_relationships": 0,
+    "communities_detected": 172,
+    "average_degree": 0.42141544117647056,
+    "density": 4.842742371598145e-05,
+    "modularity": 0.9140203393398622,
+    "pagerank_top_10": [
+        {
+            "anonymous_author_id": "cf7d80aa02ba0c2d",
+            "pagerank_score": 0.006387681752119594
+        },
+        {
+            "anonymous_author_id": "5d3ff0fa857aabd0",
+            "pagerank_score": 0.005201683108265977
+        },
+        {
+            "anonymous_author_id": "ef57c9b33ea80fa5",
+            "pagerank_score": 0.005201683108265977
+        },
+        {
+            "anonymous_author_id": "46828b2940d97229",
+            "pagerank_score": 0.004199750536626824
+        },
+        {
+            "anonymous_author_id": "535656caabbf735e",
+            "pagerank_score": 0.004199750536626824
+        },
+        {
+            "anonymous_author_id": "87c9b272f083f9e5",
+            "pagerank_score": 0.004032761774686966
+        },
+        {
+            "anonymous_author_id": "f8c2f48bd6802f29",
+            "pagerank_score": 0.0031978179649876713
+        },
+        {
+            "anonymous_author_id": "b30bae2ff50bc3fa",
+            "pagerank_score": 0.0031978179649876713
+        },
+        {
+            "anonymous_author_id": "b6075fc21f8bb6c6",
+            "pagerank_score": 0.0031978179649876713
+        },
+        {
+            "anonymous_author_id": "8f32c088002a3e68",
+            "pagerank_score": 0.0031978179649876713
+        }
+    ],
+    "outputs": [
+        "graph_nodes.csv",
+        "graph_edges.csv",
+        "pagerank_scores.csv",
+        "community_assignments.csv",
+        "graph_report.json"
+    ],
+    "privacy": "Channel IDs pseudonymized using SHA-256."
+}

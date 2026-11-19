@@ -1,0 +1,18 @@
+{
+  "Naive_Lag_7": {
+    "WAPE_percent": 88.5971,
+    "RMSSE": 1.0247
+  },
+  "LightGBM": {
+    "WAPE_percent": 71.3071,
+    "RMSSE": 0.7542
+  },
+  "Prophet": {
+    "WAPE_percent": 75.941,
+    "RMSSE": 0.7916
+  },
+  "TFT_100_series": {
+    "WAPE_percent": 77.253,
+    "RMSSE": 0.8326
+  }
+}

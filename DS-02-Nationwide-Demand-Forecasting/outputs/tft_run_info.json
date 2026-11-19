@@ -1,0 +1,14 @@
+{
+  "model": "Temporal Fusion Transformer",
+  "series_trained": 100,
+  "training_epochs": 3,
+  "training_batch_limit": 40,
+  "encoder_length_days": 28,
+  "prediction_length_days": 28,
+  "validation_rows": 2800,
+  "evaluation_scope": "100 sampled item-store series",
+  "metrics": {
+    "WAPE_percent": 77.253,
+    "RMSSE": 0.8326
+  }
+}

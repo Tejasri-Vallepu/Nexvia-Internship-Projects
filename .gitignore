@@ -1,0 +1,33 @@
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Training logs
+lightning_logs/
+logs/
+
+# Raw and generated datasets
+data/raw/
+data/processed/
+
+# Large model artifacts
+*.ckpt
+*.pkl
+*.joblib
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

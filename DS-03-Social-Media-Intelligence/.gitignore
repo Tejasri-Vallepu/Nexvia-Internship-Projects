@@ -1,0 +1,43 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large datasets
+data/raw/
+data/external/
+
+# Model files
+models/
+*.joblib
+*.pkl
+*.h5
+*.pt
+*.pth
+*.safetensors
+
+# Logs and temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Comment-level data (privacy)
+data/processed/youtube/cleaned_comments.csv
+data/processed/youtube/sentiment_results.csv
+data/processed/youtube/cleaned_videos.csv
+data/processed/youtube/topics/comment_topics.csv

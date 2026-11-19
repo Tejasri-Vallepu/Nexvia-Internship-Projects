@@ -1,0 +1,63 @@
+{
+    "dataset": "LIAR",
+    "model": "TF-IDF + Logistic Regression",
+    "label_mapping": {
+        "pants-fire": "misleading",
+        "false": "misleading",
+        "barely-true": "misleading",
+        "half-true": "not_classified_as_misleading",
+        "mostly-true": "not_classified_as_misleading",
+        "true": "not_classified_as_misleading"
+    },
+    "positive_class": "misleading",
+    "validation": {
+        "split": "validation",
+        "samples": 1284,
+        "accuracy": 0.6129283489096573,
+        "misleading_precision": 0.5952,
+        "misleading_recall": 0.6038961038961039,
+        "misleading_f1": 0.5995165189363416,
+        "class_balance": {
+            "not_classified_as_misleading": 668,
+            "misleading": 616
+        },
+        "confusion_matrix": [
+            [
+                372,
+                244
+            ],
+            [
+                253,
+                415
+            ]
+        ]
+    },
+    "test": {
+        "split": "test",
+        "samples": 1283,
+        "accuracy": 0.5993764614185503,
+        "misleading_precision": 0.5360824742268041,
+        "misleading_recall": 0.5611510791366906,
+        "misleading_f1": 0.5483304042179262,
+        "class_balance": {
+            "not_classified_as_misleading": 727,
+            "misleading": 556
+        },
+        "confusion_matrix": [
+            [
+                312,
+                244
+            ],
+            [
+                270,
+                457
+            ]
+        ]
+    },
+    "limitations": [
+        "Binary labels are simplified groupings of LIAR ratings.",
+        "The model predicts dataset label patterns, not verified truth.",
+        "Predictions require independent fact-checking.",
+        "Performance may not generalize to YouTube comments."
+    ]
+}

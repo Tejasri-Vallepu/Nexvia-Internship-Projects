@@ -1,0 +1,14 @@
+{
+    "method": "Darts BottomUpReconciliator",
+    "hierarchy": "Item-Store -> Store -> State -> National",
+    "bottom_level_series": 500,
+    "store_nodes": 10,
+    "state_nodes": 3,
+    "national_nodes": 1,
+    "forecast_dates": 28,
+    "total_hierarchy_components": 514,
+    "output_rows": 14392,
+    "max_aggregation_difference": 4.547473508864641e-13,
+    "consistency_check": "PASSED",
+    "output_file": "C:\\Users\\shini\\Documents\\Nationwide-Demand-Forecasting\\outputs\\darts_reconciled_forecasts.csv"
+}
